@@ -1,6 +1,4 @@
-*
-!*/
-!src/
-!res/
-!libs/
-!.gitignore
+bin/
+gen/
+private/
+hs_*.log
