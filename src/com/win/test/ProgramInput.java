@@ -34,128 +34,99 @@ public abstract class ProgramInput {
 			return ProgramInput.htmlTextInput(url);
 			}
 
-		}
+	}
 	
 	public static String textFileInput(File inname) {
-		
-		
 		FileInputStream fis = null;
 		String foo = "";
 		String bar = "";
-		
-		
-			try {
-				fis = new FileInputStream(inname)	;
-			
-		
-		
-		BufferedInputStream bis = new BufferedInputStream(fis);
-		DataInputStream dis = new DataInputStream(bis);
-		
+		try {
+            fis = new FileInputStream(inname)	;
+			BufferedInputStream bis = new BufferedInputStream(fis);
+		    DataInputStream dis = new DataInputStream(bis);
 			while ((foo = dis.readLine())!=null){
-				if (!foo.isEmpty()){
-					
-					bar = bar + foo.trim();
+		    	if (!foo.isEmpty()){
+			    	bar = bar + foo.trim();
 				}
 			}
-		
-		fis.close();
-		bis.close();
-		dis.close();
-		
-			} catch (FileNotFoundException e) {
-			} catch (IOException e) {}
+			fis.close();
+            bis.close();
+            dis.close();
+        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
+        }
 		return bar;
+    }
 	
-			}
-	
-	public static String htmlTextInput(URL url){
-
-		
+	public static String htmlTextInput(URL url){ // this method does the HTML fetching
 		String foo = "";
 		String bar = "";
-		
-			try {
-				 InputStream fis = url.openStream()	;
-			
-		
-		
-		InputStreamReader bis = new InputStreamReader(fis);
-		BufferedReader dis = new BufferedReader(bis);
-		
-			while ((foo = dis.readLine())!=null){
+        try {
+            InputStream fis = url.openStream()	;
+			InputStreamReader bis = new InputStreamReader(fis);
+            BufferedReader dis = new BufferedReader(bis);
+            while ((foo = dis.readLine())!=null){
 				if (!foo.isEmpty()){
-					
 					bar = bar + foo.trim();
 				}
 			}
-		
-		fis.close();
-		bis.close();
-		dis.close();
-		
-			} catch (FileNotFoundException e) {
-			} catch (IOException e) {}
-			
+            fis.close();
+            bis.close();
+            dis.close();
+		} catch (FileNotFoundException e) {
+        } catch (IOException e) {
+            System.out.println("Shit");
+        }
 		return bar;
-		
 	}
 	
-	
-	
-
-
 
 	public static String htmlDownloaderAndroid(URL url){
-	
-	try {
-		return new AsyncTaskHtmlDownloaderWrapper(url).get();
-		} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-		} catch (ExecutionException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-		}
-	
+        try {
+		    return new AsyncTaskHtmlDownloaderWrapper(url).get();
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch bloc
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 		return null;
-	
 	}
 	
 	
 	public static String htmlDownloaderAndroid(String in){
-		
 		try {
 			URL url = new URL(in);
 			return new AsyncTaskHtmlDownloaderWrapper(url).get();
-			} catch (InterruptedException e) {
+        } catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			} catch (ExecutionException e) {
+        } catch (ExecutionException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			} catch (MalformedURLException e) {
+        } catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
+        }
 		
-			return null;
+        return null;
 		
-		}
+    }
 	
 
 	public static String htmlDownloaderAndroidHooked(URL url, Activity hook){
-	
-	try {
-		return new AsyncTaskHtmlDownloaderWrapper(url).get();
+	    try {
+		    return new AsyncTaskHtmlDownloaderWrapper(url).get();
 		} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+		    // TODO Auto-generated catch block
+		    e.printStackTrace();
 		} catch (ExecutionException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+		    // TODO Auto-generated catch block
+		    e.printStackTrace();
 		}
 	
 		return null;
-		}
-	}
+    }
+
+}

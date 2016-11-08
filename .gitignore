@@ -1,4 +1,1 @@
-bin/
-gen/
-private/
-hs_*.log
+jsoup-*

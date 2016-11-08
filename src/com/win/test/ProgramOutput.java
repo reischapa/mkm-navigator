@@ -1,7 +1,7 @@
 
 package com.win.test;
 
-import java.io.BufferedReader;
+import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -11,7 +11,6 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
 
 
 public class ProgramOutput {
@@ -31,27 +30,25 @@ public class ProgramOutput {
 	
 	
 	public static boolean htmlToFile(String url, File out) {
-		
-	    
-        URL u =null;
+		URL u =null;
         InputStream is = null;
         int q;
-        FileOutputStream fw = null;
+        FileWriter fw = null;
         HttpURLConnection ht = null;
-        
+
         try {
 			out.createNewFile();
 		} catch (IOException e2) {}
-        
+
 		try {
-			fw = new FileOutputStream(out);
+			fw = new FileWriter(out);
 		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
-		}
-        
-       
-        
+		} catch (IOException e) {
+            e.printStackTrace();
+        }
+
         try {
             u = new URL(url);
         } catch (MalformedURLException ex) {}
@@ -59,29 +56,31 @@ public class ProgramOutput {
         try {
 			ht = (HttpURLConnection) u.openConnection();
 		} catch (IOException e1) {}
-        
-        ht.setRequestProperty("User-Agent",  "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:23.0) Gecko/20131011 Firefox/23.0");
-        
+
+//        ht.setRequestProperty("User-Agent",  "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:23.0) Gecko/20131011 Firefox/23.0");
+
         try{
         	
         	
             is = ht.getInputStream();
             
             
-            byte[] b = new byte[2048];
-            
-            while ((q = is.read(b)) != -1){
+            //byte[] b = new byte[1];
+            while ((q = is.read()) != -1){
             	
-                	fw.write(b,0,q);
-						
-                }            
+                	fw.write((char) q);
+            }
+
+
         } catch (IOException e){}
         
         try {
-			is.close();
+//			is.close();
 			fw.close();
 		} catch (IOException e) {}
-        
+
+        ht.disconnect();
+
         return true;
         
 	}
@@ -94,7 +93,7 @@ public class ProgramOutput {
 		byte[] b = new byte[2048];
 		FileOutputStream fout = null;
 		
-		String filename = Engine.returnImageExtention(url,"/");
+		String filename = Engine.returnImageExtension(url,"/");
 		String filepath = root + File.separator + filename;
 		
 		File foo = new File(filepath);

@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainSearchActivityRelativeLayoutV"
+    tools:context=".SearchActivity" 
+    android:orientation="vertical"
+    android:weightSum="100">
+	
+    
+    
+    <ScrollView 
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="80"
+        android:id="@+id/scHolder">
+	    <RelativeLayout 
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"        
+	       android:id="@+id/searchActivityListRel">
+	    </RelativeLayout>        	
+    </ScrollView>
+    
+	
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:id="@+id/bottomSearchRel">
+        
+        <Button 
+        android:id="@+id/PreviousButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/PreviousButtonLabel"
+        
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"/>
+    
+   		<Button 
+        android:id="@+id/NextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/NextButtonLabel"
+        
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+    
+    
+    	<ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/waiter"
+        android:layout_toLeftOf="@id/NextButton"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"/>
+    	
+    	<TextView 
+   		android:id="@+id/pageID"
+   		android:layout_toLeftOf="@id/waiter"
+   		android:layout_alignParentBottom="true"
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_centerVertical="true"/>
+    	
+    	
+    	<Spinner
+    	    android:id="@+id/spinner"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_toLeftOf="@id/pageID">
+    	    
+    	</Spinner>
+    	
+        
+    </RelativeLayout>
+    
+    
+
+</LinearLayout>

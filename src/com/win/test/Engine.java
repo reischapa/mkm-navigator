@@ -19,21 +19,12 @@ public abstract class Engine {
 
 	
 	private static int startIdOffset = 0;
-	
 	public static String lastSearch = "/0";
-	
 	public static CardSearchTable lastSearchCST = null;
-	
-	public static String mainSiteString = "https://www.magiccardmarket.eu";
-
-
+	public static String mainSiteString = "http://www.magiccardmarket.eu";
 	public static File cachedSearches = new File("/storage/sdcard1");
-
 	public static boolean loadPagesFromStorage = false;
-
 	public static URL mainSiteURL;
-	
-	
 	public static final String PREFS_NAME = "PEANUT_BUTTER";
 	
 	
@@ -134,7 +125,7 @@ public abstract class Engine {
 		return mainSiteString + "/?mainPage=showSearchResult&searchFor=" + card + "&resultsPage=" + --pageNumber + "" ;
 	}
 
-	public static String returnImageExtention(String imgurl, String tag){
+	public static String returnImageExtension(String imgurl, String tag){
 		return imgurl.substring(findLastCharInString(imgurl, tag)+1);
 		
 	}

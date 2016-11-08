@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainSearchActivityLinearLayout"
+    tools:context=".SearchActivity" 
+    android:weightSum="100">
+	
+    
+    
+    <ScrollView 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"        
+        android:id="@+id/scHolder">
+	    <RelativeLayout 
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"        
+	       android:id="@+id/searchActivityListRel">
+	    </RelativeLayout>  
+	    
+	    	
+    </ScrollView>
+    
+	
+    
+    
+    
+
+</LinearLayout>
