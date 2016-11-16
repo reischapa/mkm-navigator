@@ -25,5 +25,12 @@
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jsoup-1.10.1-javadoc" level="project" />
+    <orderEntry type="library" name="cssparser-0.9.20" level="project" />
+    <orderEntry type="library" name="sac" level="project" />
+    <orderEntry type="library" name="antlr-4.5.3-complete" level="project" />
+    <orderEntry type="library" name="jstyleparser-2.0" level="project" />
+    <orderEntry type="library" name="slf4j-jdk14-1.7.21" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.7.21" level="project" />
+    <orderEntry type="library" name="flute" level="project" />
   </component>
 </module>

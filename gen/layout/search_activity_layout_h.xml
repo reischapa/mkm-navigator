@@ -2,83 +2,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/mainSearchActivityLinearLayoutH"
-    tools:context=".SearchActivity" 
-    android:orientation="horizontal"
-    android:weightSum="100">
-	
-    
-    
-    <ScrollView 
-        android:layout_height="match_parent"
-        android:layout_width="0dp"
-        android:layout_weight="90"
-        android:id="@+id/scHolder">
-	    <RelativeLayout 
-	       android:layout_width="match_parent"
-	       android:layout_height="wrap_content"        
-	       android:id="@+id/searchActivityListRel">
-	    </RelativeLayout>        	
-    </ScrollView>
-    
-	
-    <RelativeLayout 
-        android:layout_width="0dp"
-        android:layout_height="fill_parent"
-        android:layout_weight="10"
-        android:id="@+id/bottomSearchRel">
-        
-        
-        
-        
-        <Button 
-        android:id="@+id/PreviousButton"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="b"
-        
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"/>
-    
-   		<Button 
-        android:id="@+id/NextButton"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="F"
-        
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
-    	
-   		
-    	<ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/waiter"
-        android:layout_above="@id/NextButton"
-        android:layout_alignRight="@id/NextButton"
-        android:visibility="invisible"/>
-        
-        <TextView 
-   		android:id="@+id/pageID"
-   		android:layout_above="@id/waiter"
-   		
-    	android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:layout_centerHorizontal="true"/>
-        
-       
-    	<Spinner
-    	    android:id="@+id/spinner"
-    	    android:layout_width="wrap_content"
-    	    android:layout_height="wrap_content"
-    	    android:layout_below="@id/pageID">
-    	    
-    	</Spinner>
-        
-        
-    </RelativeLayout>
-    
-    
+    tools:context="com.mkmnav.android.StartActivity"
+    android:orientation="horizontal">
 
+    <FrameLayout 
+        android:id = "@+id/frag_container1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="100">
+        
+    </FrameLayout>
+    
+    
 </LinearLayout>

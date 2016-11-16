@@ -5,14 +5,132 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="TAGG" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3a5c83-0eff-4590-bbb9-f9d48fbe99e4" name="Default" comment="Broken due to site updates (?), needs fixing.">
+    <list default="true" id="bd3a5c83-0eff-4590-bbb9-f9d48fbe99e4" name="Default" comment="Initial tests with third party HTML parser">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader$HTMLDownloader_ExecutorCallback.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader$HTMLDownloader_ExecutorCallbackWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader$HTMLDownloader_InputCallback.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader$HTMLDownloader_InputCallbackWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader$HTMLDownloader_ReturnerCallback.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader$HTMLDownloader_ReturnerCallbackWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader$HTMLDownloader_UpdaterCallback.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader$HTMLDownloader_UpdaterCallbackWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLParser$HTMLParser_ExecutorCallback.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLParser$HTMLParser_ExecutorCallbackWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLParser$HTMLParser_InputCallback.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLParser$HTMLParser_InputCallbackWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLParser$HTMLParser_ReturnerCallback.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLParser$HTMLParser_ReturnerCallbackWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLParser$HTMLParser_UpdaterCallback.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLParser$HTMLParser_UpdaterCallbackWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/search_activity_fragment_h.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/search_activity_fragment_v.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/search_fragment_list_element_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/android/StartActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/AsyncTaskExecutionCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/AsyncTaskParameterCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/AsyncTaskReturnCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/AsyncTaskUpdateCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/ZeroAsyncTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/backend/CardFramework/Card.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/backend/MT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/backend/Motor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/backend/PageFramework/ZeroPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/backend/PageTypesMKM/SearchPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/backend/Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/backend/ProgramInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mkmnav/backend/ProgramOutput.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/Tests/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/AsyncTaskHtmlDownloaderWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/Blogger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/CSTCreationStub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/CSTSerializable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/CardSearchTable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/ChangePageSearchTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/CustomInterfaceClasses$ActionBarSearchListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/CustomInterfaceClasses$BackButtonPressListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/CustomInterfaceClasses$ForwardButtonPressListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/CustomInterfaceClasses$SearchFragListenerStub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/CustomInterfaceClasses.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/Engine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/ExpandableForFragments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/FirstCSTCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/IndieCSTCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/InterfaceClasses$ActionBarSearchListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/InterfaceClasses$BackButtonPressListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/InterfaceClasses$ForwardButtonPressListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/InterfaceClasses$SearchFragListenerStub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/InterfaceClasses.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/MT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/Manifest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/Parser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/ProgramInput$AsyncTaskHtmlDownloaderWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/ProgramInput.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/ProgramOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/SearchFragment$cake.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/SearchFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/StartActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/Table.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/win/test/TableCreationStub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/layout/start_activity_layout_h.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/layout/start_activity_layout_v.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/search_action_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/search_layout_simple.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/start_activity_layout_h.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/start_activity_layout_v.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Backend/MT.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Backend/Parser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Backend/ProgramInput.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Backend/ProgramOutput.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/AsyncTaskHtmlDownloaderWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/Blogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/CSTCreationStub.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/CSTSerializable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/CardSearchTable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/ChangePageSearchTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/CustomInterfaceClasses.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/Engine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/ExpandableForFragments.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/FirstCSTCreator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/IndieCSTCreator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/InterfaceClasses.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/SearchFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/StartActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/Table.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/win/test/TableCreationStub.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/MKM Navigator.apk" afterPath="$PROJECT_DIR$/gen/MKM Navigator.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/MKM Navigator.unaligned.apk" afterPath="$PROJECT_DIR$/gen/MKM Navigator.unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MKM Navigator.iml" afterPath="$PROJECT_DIR$/.idea/MKM Navigator.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/win/test/Engine.java" afterPath="$PROJECT_DIR$/src/com/win/test/Engine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/win/test/ProgramInput.java" afterPath="$PROJECT_DIR$/src/com/win/test/ProgramInput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/win/test/ProgramOutput.java" afterPath="$PROJECT_DIR$/src/com/win/test/ProgramOutput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/layout/search_activity_layout_h.xml" afterPath="$PROJECT_DIR$/gen/layout/search_activity_layout_h.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/layout/search_activity_layout_v.xml" afterPath="$PROJECT_DIR$/gen/layout/search_activity_layout_v.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/search_activity_layout_h.xml" afterPath="$PROJECT_DIR$/res/layout/search_activity_layout_h.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/search_activity_layout_v.xml" afterPath="$PROJECT_DIR$/res/layout/search_activity_layout_v.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/Main.java" afterPath="$PROJECT_DIR$/src/Tests/Main.java" />
     </list>
     <ignored path="MKM Navigator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,51 +151,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MT.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/win/test/MT.java">
+      <file leaf-file-name="StartActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/StartActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2601">
-              <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+            <state relative-caret-position="161">
+              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/win/test/Engine.java">
+      <file leaf-file-name="ParallelTaskStorage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelTaskStorage/ParallelTaskStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2499">
-              <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgramInput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/win/test/ProgramInput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgramOutput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/win/test/ProgramOutput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tests/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="216">
+              <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,12 +173,96 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardSearchTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/win/test/CardSearchTable.java">
+      <file leaf-file-name="AsyncTask.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/bin/android-sdk-linux/platforms/android-25/android.jar!/android/os/AsyncTask.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="848">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_activity_fragment_h.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/search_activity_fragment_h.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AT_HTMLDownloader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-848">
               <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mkmnav/backend/CardFramework/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-666">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mkmnav/backend/PageTypesMKM/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="117" column="66" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_fragment_list_element_layout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/search_fragment_list_element_layout.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayAdapter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/bin/android-sdk-linux/platforms/android-25/android.jar!/android/widget/ArrayAdapter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchResultsFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/fragments/SearchResultsFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="67" column="99" selection-start-line="67" selection-start-column="99" selection-end-line="67" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2548#2549#0" expanded="true" />
+                <element signature="e#2595#2596#0" expanded="true" />
+                <element signature="e#2653#2654#0" expanded="true" />
+                <element signature="e#2700#2701#0" expanded="true" />
+                <element signature="e#2758#2759#0" expanded="true" />
+                <element signature="e#2790#2791#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,7 +272,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="ASEnum" />
+        <option value="Class" />
+        <option value="ASInterface" />
         <option value="ASClass" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -112,24 +288,163 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/mkmnav/backend/PageTypesMKM/SearchPage.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/win/MKMNav/CSTCreationStub.java" />
-        <option value="$PROJECT_DIR$/src/MKMNavTests/Main.java" />
+        <option value="$PROJECT_DIR$/src/Backend/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/Android/AndroidProgramInput.java" />
+        <option value="$PROJECT_DIR$/src/Android/StartActivity.java" />
+        <option value="$PROJECT_DIR$/src/Android/SearchFragment.java" />
+        <option value="$PROJECT_DIR$/src/android/SearchFragment.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$USER_HOME$/bin/android-sdk-linux/platforms/android-25/android.jar!/android/os/AsyncTask.class" />
-        <option value="$PROJECT_DIR$/src/com/win/test/ProgramInput.java" />
-        <option value="$PROJECT_DIR$/src/com/win/test/Engine.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/com/win/test/ProgramOutput.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/SearchFragment.java" />
+        <option value="$PROJECT_DIR$/src/tests/Main.java" />
         <option value="$PROJECT_DIR$/src/Tests/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/backend/ProgramInput.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/backend/CACertificateStrings.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/AndroidProgramInput.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/AndroidHTMLDownloader.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/AndroidHTMLDownloaderWithHttps.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/AsyncTaskCallback.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/AsyncTaskParameterCallback.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/AsyncTaskReturnCallback.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/AsyncTaskExecutionCallback.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/AsyncTaskUpdateCallback.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/GenericAsyncTask.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallel/AsyncTaskUpdateCallback.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/AsyncTaskUpdateCallback.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/GenericAsyncTask.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/SelfSufficientAsyncTask.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/OneAsyncTask.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/TwoAsyncTask.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/AsyncTaskParameterCallback.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/ThreeAsyncTask.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/HTMLDownloaderTask.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/AT_HTMLDownloader.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelTasks/AT_HTMLDownloader.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelTasks/AT_HTMLParser.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/backend/Engine.java" />
+        <option value="$PROJECT_DIR$/res/layout/search_activity_layout_v.xml" />
+        <option value="$PROJECT_DIR$/res/layout/search_activity_layout_h.xml" />
+        <option value="$PROJECT_DIR$/res/layout/search_activity_fragment_h.xml" />
+        <option value="$PROJECT_DIR$/res/layout/start_activity_layout_h.xml" />
+        <option value="$PROJECT_DIR$/res/layout/start_activity_layout_v.xml" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/backend/PageFramework/Page.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/backend/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/backend/CardFramework/Card.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/backend/Motor.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/ZeroAsyncTask.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/parallelTaskStorage/ParallelTaskStorage.java" />
+        <option value="$PROJECT_DIR$/res/layout/searchfragment_list_element_layout.xml" />
+        <option value="$PROJECT_DIR$/res/layout/search_activity_fragment_v.xml" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/backend/PageTypesMKM/SearchPage.java" />
+        <option value="$PROJECT_DIR$/res/layout/search_fragment_list_element_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/fragments/SearchResultsFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/mkmnav/android/StartActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization &gt; Bidirectional Text</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>C/C++</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Data flow analysisC/C++</id>
+          </State>
+          <State>
+            <id>Data flow issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -156,110 +471,50 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
         <subPane />
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MKM Navigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MKM Navigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MKM Navigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MKM Navigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MKM Navigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MKM Navigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MKM Navigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MKM Navigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MKM Navigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/bin/android-sdk-linux" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/jsoup-1.10.1.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$USER_HOME$/bin/android-sdk-linux/docs/reference" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="device.picker.selection" value="192.168.0.100:5555" />
-    <property name="FullScreen" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="device.picker.selection" value="0123456789ABCDEF" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.NlPropertiesWindowManager-NlEditorPanel.SHOW" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.mkmnav.backend.ProgramInput" />
+      <recent name="com.win.test.AndroidEngine" />
+      <recent name="Backend.Engine" />
+      <recent name="Backend.SearchPage" />
+      <recent name="com.win.test.AndroidProgramInput" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Backend" />
+      <recent name="com.win.test" />
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mkmnav.android.parallelTasks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chapa\Dropbox\MKM Navigator\src\Android" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MKM Tests">
+  <component name="RunManager" selected="Android App.MKM Navigator">
     <configuration default="false" name="All in MKM Navigator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MKM Navigator" />
@@ -521,7 +776,7 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Auto" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -554,7 +809,7 @@
     </configuration>
     <configuration default="false" name="MKM Tests" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Main" />
+      <option name="MAIN_CLASS_NAME" value="tests.Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -615,69 +870,71 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13211381" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25530303" sideWeight="0.37070253" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27452025" sideWeight="0.53400224" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.669697" sideWeight="0.72496265" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.4916388" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25530303" sideWeight="0.62929744" order="8" side_tool="true" content_ui="tabs" x="-1123" y="575" width="710" height="319" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16204691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3926755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" x="-1369" y="654" width="781" height="327" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27878788" sideWeight="0.3393124" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.4960981" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27452025" sideWeight="0.53177255" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7340909" sideWeight="0.51718986" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2901515" sideWeight="0.483835" order="15" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27452025" sideWeight="0.53400224" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3181818" sideWeight="0.7922272" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.4960981" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13387097" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36439395" sideWeight="0.3064275" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25530303" sideWeight="0.37967116" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.4916388" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25530303" sideWeight="0.62032884" order="9" side_tool="true" content_ui="tabs" x="-1123" y="575" width="710" height="319" />
+      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" x="-1369" y="654" width="781" height="327" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25681818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27878788" sideWeight="0.33034378" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2901515" sideWeight="0.483835" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27452025" sideWeight="0.53177255" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -694,229 +951,299 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Needs fix to fetching methods" />
     <MESSAGE value="Broken due to site updates (?), needs fixing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Broken due to site updates (?), needs fixing." />
+    <MESSAGE value="Initial tests with third party HTML parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial tests with third party HTML parser" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tests/Main.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/win/test/ProgramInput.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/win/test/ProgramOutput.java</url>
-          <line>77</line>
+          <url>file://$PROJECT_DIR$/src/com/mkmnav/backend/ProgramOutput.java</url>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/win/test/ProgramOutput.java</url>
-          <line>52</line>
+          <url>file://$PROJECT_DIR$/src/com/mkmnav/backend/ProgramOutput.java</url>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mkmnav/backend/ProgramInput.java</url>
+          <properties />
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="9" />
+      <option name="time" value="72" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/CustomInterfaceClasses.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/ExpandableForFragments.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/ChangePageSearchTask.java" />
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/CSTCreationStub.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNavTests/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/FirstCSTCreator.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/CustomInterfaceClasses.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/ExpandableForFragments.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/ChangePageSearchTask.java" />
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/CSTCreationStub.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNavTests/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/CustomInterfaceClasses.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/ExpandableForFragments.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/ChangePageSearchTask.java" />
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/CSTCreationStub.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/ChangePageSearchTask.java" />
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/CSTCreationStub.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/ChangePageSearchTask.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/StartActivity.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/ChangePageSearchTask.java" />
-    <entry file="file://$PROJECT_DIR$/local.properties" />
-    <entry file="file://$PROJECT_DIR$/project.properties" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/CSTCreationStub.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/ProgramInput.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/CustomInterfaceClasses.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/ExpandableForFragments.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNavTests/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/Engine.java" />
-    <entry file="file://$PROJECT_DIR$/src/MKMNav/FirstCSTCreator.java" />
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/AsyncTaskHtmlDownloaderWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/ChangePageSearchTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/SearchFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/TableCreationStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/CardSearchTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/platforms/android-25/android.jar!/android/os/AsyncTask.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/FirstCSTCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/backend/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/MT.java">
+    <entry file="file://$PROJECT_DIR$/src/com/win/test/Blogger.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/win/test/StartActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/win/test/Table.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/win/test/CSTSerializable.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/win/test/FirstCSTCreator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/win/test/CardSearchTable.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/win/test/TableCreationStub.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/win/test/CSTCreationStub.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/win/test/AndroidEngine.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/backend/ProgramOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2601">
-          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+        <state relative-caret-position="476">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/ProgramInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/res/layout/search_action_view.xml">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.jpg">
-      <provider selected="true" editor-type-id="images">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/win/test/ProgramOutput.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state relative-caret-position="612">
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/SearchFragment.java" />
+    <entry file="jar://Y:/Programs/Android/sdk/platforms/android-25/android.jar!/android/app/Instrumentation.class" />
+    <entry file="jar://Y:/Programs/Android/sdk/platforms/android-25/android.jar!/android/app/Activity.class" />
+    <entry file="jar://Y:/Programs/Android/sdk/platforms/android-25/android.jar!/java/lang/Thread.class" />
+    <entry file="file://$PROJECT_DIR$/src/tests/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/tests/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/backend/CACertificateStrings.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/AndroidProgramInput.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/AndroidHTMLDownloaderWithHttps.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/AsyncTaskReturnCallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/AsyncTaskUpdateCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/OneAsyncTask.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/AsyncTaskParameterCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/TwoAsyncTask.java" />
+    <entry file="jar://Y:/Programs/Android/sdk/platforms/android-25/android.jar!/android/os/BaseBundle.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/backend/ProgramInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://Y:/Programs/Android/sdk/platforms/android-25/android.jar!/android/os/Looper.class" />
+    <entry file="jar://Y:/Programs/Android/sdk/platforms/android-25/android.jar!/android/os/Handler.class" />
+    <entry file="jar://Y:/Programs/Android/sdk/platforms/android-25/android.jar!/android/os/AsyncTask.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/AsyncTaskExecutionCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/search_activity_layout_v.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/backend/Motor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/platforms/android-25/android.jar!/android/app/Fragment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5382">
+          <caret line="475" column="0" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/backend/PageFramework/ZeroPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelFramework/ZeroAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/platforms/android-25/android.jar!/android/os/AsyncTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelTaskStorage/ParallelTaskStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/search_activity_layout_h.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/search_activity_fragment_v.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/search_activity_fragment_h.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/search_fragment_list_element_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/platforms/android-25/android.jar!/android/widget/ArrayAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/fragments/SearchResultsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="67" column="99" selection-start-line="67" selection-start-column="99" selection-end-line="67" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2548#2549#0" expanded="true" />
+            <element signature="e#2595#2596#0" expanded="true" />
+            <element signature="e#2653#2654#0" expanded="true" />
+            <element signature="e#2700#2701#0" expanded="true" />
+            <element signature="e#2758#2759#0" expanded="true" />
+            <element signature="e#2790#2791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/StartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/backend/CardFramework/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/android/parallelTaskDefinitions/AT_HTMLDownloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-848">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mkmnav/backend/PageTypesMKM/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="117" column="66" selection-start-line="117" selection-start-column="66" selection-end-line="117" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -960,7 +1287,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>Android API 25 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -985,7 +1312,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jsoup-1.10.1-javadoc</last-edited>
+          <last-edited>flute</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
