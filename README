@@ -1,4 +1,0 @@
-A project done a while back that served as means of learning android development for the author.
-It is raw, but most of it still works. The Logos for the editions need to be revamped,
-the names dont actually show up in the list. The parser needs to be implemented with regex, and not
-with the ugly implementation it has now. And many more things.

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="flute">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libs/flute.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
