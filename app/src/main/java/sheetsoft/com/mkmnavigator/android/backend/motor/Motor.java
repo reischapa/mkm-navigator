@@ -33,7 +33,7 @@ public abstract class Motor {
 
     //enum with the page types
     public enum PAGETYPES{
-        SEARCH, CARD_LISTINGS;
+        SEARCH, PRODUCT
     }
 
 

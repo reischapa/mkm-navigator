@@ -13,7 +13,7 @@ import com.mkmnav.R;
  * Created by chapa on 22-11-2016.
  */
 
-public class WaitFragment extends Fragment {
+public class WelcomeFragment2 extends Fragment {
 
     Context context = null;
 

@@ -32,7 +32,7 @@ import javax.net.ssl.HttpsURLConnection;
 
 import sheetsoft.com.mkmnavigator.android.backend.PageTypesMKM.SearchPageMKM;
 import sheetsoft.com.mkmnavigator.android.fragments.SearchResultsFragment;
-import sheetsoft.com.mkmnavigator.android.fragments.WaitFragment;
+import sheetsoft.com.mkmnavigator.android.fragments.WelcomeFragment2;
 import sheetsoft.com.mkmnavigator.android.fragments.WelcomeFragment;
 import sheetsoft.com.mkmnavigator.android.parallelTaskStorage.AT_HTMLDownloader;
 import sheetsoft.com.mkmnavigator.android.parallelTaskStorage.ParallelTaskStorage;
@@ -292,7 +292,7 @@ public class StartActivity extends FragmentActivity implements AT_HTMLDownloader
                 case POS_RESULTS_FRAGMENT:
                     String n = ParallelTaskStorage.StartActivitySearchHTMLFetcher.getContent();
                     if (n==null){
-                        return new WaitFragment();
+                        return new WelcomeFragment2();
                     }
 
                     SearchPageMKM sp = Motor.generateSearchPage(n,null);
@@ -309,7 +309,7 @@ public class StartActivity extends FragmentActivity implements AT_HTMLDownloader
                     return frag;
             }
 
-            return new WaitFragment();
+            return new WelcomeFragment2();
         }
 
         @Override
@@ -321,7 +321,7 @@ public class StartActivity extends FragmentActivity implements AT_HTMLDownloader
     }
 
     public Fragment returnWelcomeActivity(){
-        return this.showProgressBarInWelcomeFragment ? new WaitFragment() : new WelcomeFragment();
+        return this.showProgressBarInWelcomeFragment ? new WelcomeFragment2() : new WelcomeFragment();
     }
 
 

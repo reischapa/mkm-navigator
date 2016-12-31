@@ -59,7 +59,7 @@ public class SearchResultsFragment extends Fragment {
 
                 SearchPageMKM gg = searchPageMKMs.get(0);
 
-                CardListAdapter ppap = new CardListAdapter(this.getActivity(), gg.getAssociatedCards());
+                CardListAdapter ppap = new CardListAdapter(this.getActivity(), gg.getAssociatedProducts());
 
                 lv.setAdapter(ppap);
             } else {

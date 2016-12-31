@@ -1,6 +1,11 @@
 package sheetsoft.com.mkmnavigator.android.backend.PageTypesMKM;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
+
 import sheetsoft.com.mkmnavigator.android.backend.PageFramework.ZeroPage;
+import sheetsoft.com.mkmnavigator.android.backend.ProductFramework.Product;
 import sheetsoft.com.mkmnavigator.android.backend.motor.Motor;
 
 /**
@@ -9,13 +14,27 @@ import sheetsoft.com.mkmnavigator.android.backend.motor.Motor;
 
 public class ProductPageMKM extends ZeroPage {
 
-    public ProductPageMKM(String inputHTML, Motor.PAGETYPES pageType, Motor.MAINSITEURLS pageURL, boolean parseNow) {
-        super(inputHTML, pageType, pageURL, parseNow);
+    public ProductPageMKM(Product inputCardName, String inputHTML){
+        super(inputHTML, Motor.PAGETYPES.PRODUCT,Motor.MAINSITEURLS.MKM_EU, false);
     }
 
-    @Override
 
+    private String productPageURLString = "";
+
+
+
+    @Override
     public void parse(String htmlIn){
+
+        Document document = Jsoup.parse(htmlIn);
+        Elements elems;
+
+
+        String productURLString = null;
+
+        elems = document.select("img[class*=prodImage][");
+
+
 
     }
 

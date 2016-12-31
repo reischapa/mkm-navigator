@@ -28,12 +28,12 @@ public abstract class ZeroPage {
 //    public ZeroPage(ZeroPage input){
 //        this.pageType = input.getPageType();
 //        this.pageURL = input.getPageURL();
-//        this.mAssociatedProducts = input.getAssociatedCards();
+//        this.mAssociatedProducts = input.getAssociatedProducts();
 //    }
 // TODO implemented to reduce memory required for storage and transport of pages
 //  Dunno if it will be required
 
-    public final ArrayList<Product> getAssociatedCards(){return this.mAssociatedProducts;}
+    public final ArrayList<Product> getAssociatedProducts(){return this.mAssociatedProducts;}
 
     public final Motor.PAGETYPES getPageType(){
         return pageType;

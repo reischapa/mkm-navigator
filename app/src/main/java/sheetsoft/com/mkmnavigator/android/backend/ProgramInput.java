@@ -1,8 +1,5 @@
 package sheetsoft.com.mkmnavigator.android.backend;
 
-import android.util.Log;
-
-
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -12,10 +9,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
-import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.nio.Buffer;
 import java.security.KeyManagementException;
 import java.security.KeyStore;
 import java.security.KeyStoreException;
@@ -23,8 +18,6 @@ import java.security.NoSuchAlgorithmException;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
-import java.util.ArrayList;
-import java.util.Random;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
@@ -86,8 +79,6 @@ public abstract class ProgramInput {
 
             httpsURLConnection.setRequestProperty("User-Agent", Motor.mHTTPUserAgent);
 
-            InputStream is = httpsURLConnection.getInputStream();
-
             return httpsURLConnection;
 
         } catch (CertificateException e) {
@@ -118,7 +109,7 @@ public abstract class ProgramInput {
             br = new BufferedReader(new InputStreamReader(in.getInputStream()));
             return br;
         } catch (IOException e) {
-            Log.e("TAGG",e.getMessage());
+//            Log.e("TAGG",e.getMessage());
         }
         return br;
     }
